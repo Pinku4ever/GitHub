@@ -1,0 +1,59 @@
+
+# coding: utf-8
+
+# In[1]:
+
+
+import pandas as pd
+df = pd.read_csv("/Users/priyankpatel/Desktop/weather_data.csv")
+df
+
+
+# In[3]:
+
+
+row, coloums = df.shape
+
+
+# In[4]:
+
+
+coloums
+
+
+
+# In[5]:
+
+
+df.head(3)
+
+
+# In[6]:
+
+
+df.tail(1)
+
+
+# In[8]:
+
+
+df.columns
+
+
+# In[9]:
+
+
+df
+
+
+# In[12]:
+
+
+df['Tempreture'].max()
+
+
+# In[13]:
+
+
+df.describe()
+
